@@ -1,4 +1,3 @@
-```markdown
 # Auth by Phone
 
 ## Overview
