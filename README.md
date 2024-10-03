@@ -26,7 +26,7 @@ The **Auth by Phone** project provides a user authentication system using phone 
 1. Clone the repository:
    ```bash
    git clone "https://github.com/alishermutalov/auth-by-phone-number"
-   cd auth_by_phone
+   cd auth-by-phone-number
    ```
 
 2. Create a virtual environment and activate it:
