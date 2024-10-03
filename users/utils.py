@@ -12,13 +12,6 @@ def check_phone_number(number):
             'message':'Enter a valid phone number'
         })
 
-# def check_phone_number_or_username(number):
-#     try:
-#         phone_number = phonenumbers.parse(number)
-#         return phonenumbers.is_valid_number(phone_number)
-#     except:
-#         return False
-
 def send_sms_verification_code(phone_number, code):
     account_sid = decouple.config('TWILIO_ACCOUNT_SID')
     auth_token = decouple.config('TWILIO_AUTH_TOKEN')
